@@ -20,7 +20,8 @@
 	$xml->cliente/*referencia a tag cliente*/[$nova_posicao]->nome/*referencia a tag nome*/ = $_POST["nome"];
 	$xml->cliente[$nova_posicao]->email/*referencia a tag email*/ = $_POST["email"];
 	$xml->cliente[$nova_posicao]->senha/*referencia a tag senha*/ = $_POST["senha"];
-	//salve
+	$xml->cliente[$nova_posicao]->saldo/*referencia a tag senha*/ = 0;
+	
 	$xml->asXML($arquivo);
 	
 	header("location:index.php");

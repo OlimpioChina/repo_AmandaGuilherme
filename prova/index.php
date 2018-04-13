@@ -1,18 +1,34 @@
+<!DOCTYPE html>
 
-<form action = "autentica.php" method = "post">
+<html lang = "pt-BR">
+	<head>
+		<title>Login</title>
+		<meta charset = "UTF-8" />
+		<link rel = "stylesheet" type = "text/css" href = "prova.css" />
+	</head>
 	
-		Login:
-		<input type = "email" name = "email" />
-		<br /><br />
-		
-		Senha:
-		<input type = "password" name = "senha" />
-		<br /><br />
-		
-		<input type = "submit" value = "Acesse sua conta" />
-		<input type = "reset" value = "Apagar" />
-		<br />
-		
-		<a href = "cadastro.php">Cadastre-se</a>
+	<body>
+		<div>
+		<h1>Login</h1>
+		<form action = "autentica.php" method = "post">
 	
-</form>
+			Login:
+			<input type = "email" name = "email" />
+			<br /><br />
+			
+			Senha:
+			<input type = "password" name = "senha" />
+			<br /><br />
+			
+			<input type = "submit" value = "Acessar" />
+			<input type = "reset" value = "Apagar" />
+			<br />
+			
+			<nav>
+			<a href = "cadastro.php">Cadastre-se</a>
+			</nav>
+		</form>
+		</div>
+	</body>
+	
+</html>
