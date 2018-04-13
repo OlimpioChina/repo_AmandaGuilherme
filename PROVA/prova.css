@@ -1,0 +1,147 @@
+div{
+	border: 1px solid rgb (228,224,226);
+	width: 290px;
+	height: 310px;
+	display: block;
+	margin: 150px auto;
+	box-shadow: 0px 0px 10px 5px rgb(192,184,187);
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(228,224,226);
+	border-radius: 5px;
+	font-family: arial;
+	font-size: 15px;
+	color: black;
+}
+
+.autentica{
+	border: 1px solid rgb (228,224,226);
+	width: 250px;
+	height: 120px;
+	display: block;
+	margin: 150px auto;
+	box-shadow: 0px 0px 10px 5px rgb(192,184,187);
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(228,224,226);
+	border-radius: 5px;
+	font-family: arial;
+	font-size: 15px;
+	color: black;
+}
+
+.trans2{
+	border: 1px solid rgb (228,224,226);
+	width: 250px;
+	height: 200px;
+	display: block;
+	margin: 150px auto;
+	box-shadow: 0px 0px 10px 5px rgb(192,184,187);
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(228,224,226);
+	border-radius: 5px;
+	font-family: arial;
+	font-size: 15px;
+	color: black;
+}
+
+.dep{
+	border: 1px solid rgb (228,224,226);
+	width: 250px;
+	height: 200px;
+	display: block;
+	margin: 150px auto;
+	box-shadow: 0px 0px 10px 5px rgb(192,184,187);
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(228,224,226);
+	border-radius: 5px;
+	font-family: arial;
+	font-size: 15px;
+	color: black;
+}
+
+header{
+    padding: 1em;
+    color: white;
+    clear: left;
+    text-align: center;
+}
+
+.menu{
+	border: 1px solid rgb(159,160,170);
+	padding: 5px;
+	width: 50%;
+	height: 30px;
+	font-size: 15px;
+	background-color: white;
+	border-radius: 5px;
+	margin: auto;
+}
+
+.trans{
+	border: 1px solid rgb (228,224,226);
+	width: 290px;
+	height: 380px;
+	display: block;
+	margin: 150px auto;
+	box-shadow: 0px 0px 10px 5px rgb(192,184,187);
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(228,224,226);
+	border-radius: 5px;
+	font-family: arial;
+	font-size: 15px;
+	color: black;
+}
+
+nav {
+    border: 1px solid rgb(159,160,170);
+	padding: 5px;
+	width: 50%;
+	font-size: 15px;
+	background-color: white;
+	border-radius: 5px;
+	margin: auto;
+}
+
+div h1{
+	color: black;
+	font-family: arial;
+	text-align: center;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	padding: 5px;
+}
+
+input{
+	border: 1px solid rgb(159,160,170);
+	padding: 5px;
+	width: 70%;
+	font-size: 15px;
+	background-color: rgb(228,224,226);
+	margin-bottom: 10px;
+	margin: 10px auto;
+}
+
+input[type = submit], input[type = reset]{
+	border-radius: 5px;
+	color: #fff;
+	width: 35%;
+	padding: 8px;
+	margin: 18px auto;
+}
+
+input[type = submit]{
+	background-color: rgb(94,154,255);
+}
+
+input[type = reset]{
+	background-color: rgb(244,91,115);
+}
+body{
+	background-color: rgb(32,142,137);
+}
+
+
